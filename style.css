@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-grupo{
+    margin-bottom: 15px;
+}
+.form-grupo label{
+    display: flex;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+.form-grupo input{
+    width: 100%;
+    padding: 5px;
+    border: solid #ddd;
+    border-radius: 3px;
+    background-color: gray;
+    height: 20px;
+}
+ .btn-login{
+    background-color: #33b73a;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .btn-login:hover {
+        background-color: #54f36e;
+ }
